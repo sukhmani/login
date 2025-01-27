@@ -9,7 +9,7 @@ const Register = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Example of sending registration data to a server
+    
     console.log('User registered:', { username, email, password });
 
     // Reset form fields after submission
