@@ -1,38 +1,42 @@
 .login {
-    
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .login h2 {
-    margin-bottom: 20px;
-  }
-  
-  .login form div {
-    margin-bottom: 15px;
-  }
-  
-  .login label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .login input {
-    width: 50%;
-    padding: 8px;
-    box-sizing: border-box;
-  }
-  
-  .login button {
-    width: 50%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
- 
-  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login form div {
+  margin-bottom: 15px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login input {
+  width: 50%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login button {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
