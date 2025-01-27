@@ -8,12 +8,11 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     
-    console.log("Email:", email);
-    console.log("Password:", password);
+   
   };
 
   return (
-    <div className="login-container">
+    <div className="login">
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
